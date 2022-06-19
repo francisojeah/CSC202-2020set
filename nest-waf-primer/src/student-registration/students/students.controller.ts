@@ -22,13 +22,16 @@ export class StudentsController {
     return this.studentsService.findOne(+id);
   }
 
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateStudentDto: UpdateStudentDto) {
-    return this.studentsService.update(+id, updateStudentDto);
+  @Patch(':studentId/user/userId')
+  setUserById(@Param('studentId') studentId: 
+  number, @Param('userId') userId: number) {
+    return this.studentsService.setUserById(studentId, 
+  userId);
   }
-
-  @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.studentsService.remove(+id);
+  
+  @Delete(':studentId/user')
+  unsetUserById(@Param('studentId') studentId: 
+  number) {
+  return this.studentsService.unsetUserById(studentId);
   }
 }

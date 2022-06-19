@@ -8,16 +8,16 @@ import { StudentRegistrationModule } from './student-registration/student-regist
   imports: [TypeOrmModule.forRoot({
     type: "postgres",
     host: "localhost",
-    port: 5434,
+    port: 5433,
     username: "postgres",
     password: "postgres",
     database: "nestwafprimer",
     entities: [
-    "dist/**/*.entity{.ts,.js}"
+      "dist/**/*.entity{.ts,.js}"
     ],
     synchronize: true
-    }), StudentRegistrationModule],
-    controllers: [AppController],
-    providers: [AppService],
-    })
-    export class AppModule {}
+  }), StudentRegistrationModule],
+  controllers: [AppController],
+  providers: [AppService],
+})
+export class AppModule {}
