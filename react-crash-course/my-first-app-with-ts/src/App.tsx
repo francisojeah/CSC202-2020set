@@ -6,20 +6,22 @@ import './App.css'
 import HelloWorld4 from './components/HelloWorld4';
 //import HelloWorld5 from './components/HelloWorld5';
 //import HelloWorld6 from './components/HelloWorld6/HelloWorld6';
-import HelloWorld7 from './components/HelloWorld7/HelloWorld7';
+//import HelloWorld7 from './components/HelloWorld7/HelloWorld7';
 import HelloWorld8 from './components/HelloWorld8';
+import Student from './components/ca2/student';
+
 
 const App: React.FC = () => {
   return (
     <div className="Container">
       <div className="Column1">
-        <HelloWorld8 />
+      <HelloWorld8 />
       </div>
       <div className="Column2">
-        <HelloWorld4 />
+      <HelloWorld4 />
       </div>
       <div className="Column3">
-        <HelloWorld7 />
+        <Student />
       </div>
     </div>
     );

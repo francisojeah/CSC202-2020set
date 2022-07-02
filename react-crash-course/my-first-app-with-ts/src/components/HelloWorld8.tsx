@@ -22,10 +22,9 @@ const HelloWorld8: React.FC<Props> = (props) => {
     }, []);
     return (
         <div>
-            <p>Hello {props.name}. Greetings from HelloWorld8.</p> 
-            <h3>
-                {`Today's date is ${date.toLocaleDateString('en-GB')} and the time now is ${date.toLocaleTimeString('en-GB')}`}
-            </h3>
+
+            <h1>Welcome To SIMS Portal </h1> 
+            
         </div>
     )
 }

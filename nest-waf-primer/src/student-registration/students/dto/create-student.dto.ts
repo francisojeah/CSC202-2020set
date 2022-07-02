@@ -3,6 +3,14 @@ import { ModeOfEntry } from "../../../student-registration/studentRegistration.t
 
 export class CreateStudentDto {
 
+    readonly firstName: string;
+    readonly middleName?: string;
+    readonly lastName: string;
+    readonly email: string;
+    readonly dateOfBirth?: Date;
+    readonly nationality?: string;
+    readonly address?: string;
+    readonly isActive?: boolean;
     readonly department: string;
     readonly matriculationNumber: string;
     readonly modeOfEntry: ModeOfEntry;
