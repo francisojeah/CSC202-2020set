@@ -32,11 +32,11 @@ HelloWorld4.defaultProps = {
 export default HelloWorld4;
 */
 
-const HelloWorld5: React.FC<Props> = (props) => {
+const HelloWorld4: React.FC<Props> = (props) => {
 
 return (
     <div>
-        <form id="createUserForm" action="http://isms.com/students" method="POST">
+        <form id="createUserForm" action="http://isms.com:3000/students" method="POST">
         <label>Department:</label>
         <p><input id="department" name="department" type="text" placeholder="Department"></input></p>
         <label>Matriculation  Number:</label>
@@ -74,4 +74,4 @@ return (
 )
 }
 
-export default HelloWorld5;
+export default HelloWorld4;

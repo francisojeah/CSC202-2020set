@@ -23,7 +23,7 @@ const HelloWorld8: React.FC<Props> = (props) => {
     return (
         <div>
 
-            <h1>Welcome To SIMS Portal </h1> 
+            <h1>Welcome To PAU SIMS Portal </h1> 
             
         </div>
     )
