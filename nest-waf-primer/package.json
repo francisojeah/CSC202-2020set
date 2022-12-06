@@ -24,7 +24,7 @@
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/mapped-types": "^1.0.1",
-    "@nestjs/platform-express": "^8.0.0",
+    "@nestjs/platform-express": "^8.4.7",
     "@nestjs/typeorm": "^8.1.4",
     "mapped-types": "^0.0.1",
     "nunjucks": "^3.2.3",
